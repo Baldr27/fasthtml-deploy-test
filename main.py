@@ -4,7 +4,7 @@ from fasthtml.common import *
 
 app, rt = fast_app()
 
-@app.get("/")
+@app.get("/fasthtml-deploy-test/")
 def home():
     page = Html(
         Head(
@@ -24,7 +24,7 @@ def home():
     )
     return page
 
-@app.get("/miembros")
+@app.get("/fasthtml-deploy-test/miembros")
 def miembros():
     page = Html(
         Head(
@@ -44,7 +44,7 @@ def miembros():
     )
     return page
 
-@app.get("/publicaciones")
+@app.get("/fasthtml-deploy-test/publicaciones")
 def publicaciones():
     page = Html(
         Head(
