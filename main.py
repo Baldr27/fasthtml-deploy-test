@@ -67,10 +67,10 @@ def publicaciones():
 picolink = Link(rel="stylesheet", href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css")
 header = Header(
     Nav(
-        A('LOGO', href='/', cls='logo'),
+        A('LOGO', href='/fasthtml-deploy-test/', cls='logo'),
         Div(
-            A('Miembros', href='/miembros'),
-            A('Publicaciones', href='/publicaciones'),
+            A('Miembros', href='/fasthtml-deploy-test/miembros'),
+            A('Publicaciones', href='/fasthtml-deploy-test/publicaciones'),
             cls='tabs'
         ),
     ),
