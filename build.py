@@ -12,7 +12,7 @@ routes = [
 ]
 
 # Set the base URL of your local server (e.g., localhost)
-base_url = 'http://localhost:5001'
+base_url = 'http://localhost:5001/fasthtml-deploy-test'
 
 # Function to build static HTML for each route
 def build_static_html():
